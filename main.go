@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "estudosrancher:v100"
+const webContent = "estudosrancher:v1"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
